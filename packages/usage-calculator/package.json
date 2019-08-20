@@ -1,0 +1,24 @@
+{
+  "name": "usage-calculator",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "tsc && jest",
+    "test:watch": "tsc && jest --watch"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "date-fns": "^1.30.1",
+    "pad": "^3.2.0",
+    "ramda": "^0.26.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "typescript": "^3.5.3"
+  }
+}

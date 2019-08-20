@@ -1,0 +1,57 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "tsc && react-scripts test --coverage --watchAll=false",
+    "test:watch": "tsc && react-scripts test --coverage --watchAll"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!<rootDir>/src/index.js"
+    ]
+  },
+  "babelMacros": {
+    "styledComponents": {
+      "displayName": true
+    }
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
+    "@fortawesome/free-solid-svg-icons": "^5.10.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "csv-parser": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.0",
+    "react-virtualized": "^9.21.1",
+    "recharts": "^1.7.1",
+    "styled-components": "^4.3.2",
+    "usage-calculator": "^1.0.0"
+  },
+  "devDependencies": {
+    "react-test-renderer": "^16.9.0",
+    "typescript": "^3.5.3"
+  }
+}
