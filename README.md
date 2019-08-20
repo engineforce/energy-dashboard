@@ -28,3 +28,4 @@ yarn start
 
 1. This is a monorepo managed by [lerna](https://github.com/lerna/lerna) and [yarn workspaces](https://yarnpkg.com/lang/en/docs/workspaces/).
 2. Tested with `node 8.10` which supports native `async/await` and many ES6 features such as `const`.
+3. Added netlify
