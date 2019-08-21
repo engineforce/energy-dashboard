@@ -1,3 +1,7 @@
+Energy Dashboard - https://energy-dashboard.netlify.com
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f058b428-b744-4e69-90d4-4b0a0cbf340d/deploy-status)](https://app.netlify.com/sites/energy-dashboard/deploys)
+
 ## Get Started
 
 ```sh
